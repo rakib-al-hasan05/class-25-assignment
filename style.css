@@ -1,0 +1,193 @@
+/*     font-family: 'Roboto', sans-serif;
+
+    font-family: 'Spartan', sans-serif; */
+    body,h1,h2,h3,h4,h5,h6{
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+    }
+    p,a{
+        font-family: 'Spartan', sans-serif;
+        font-weight: 600;
+    }
+    a{
+        text-decoration: none;
+    }    
+    ul{
+        list-style: none;
+    }
+    
+    
+    /* Css Start */
+    
+    
+    .first-section{
+        background-color: #f6f9fc;
+    }
+    .about-section{
+        width: 500px;
+        margin: auto;
+    }
+    .about-section h2{
+        font-weight: 700;
+        position: relative;
+    }
+    .about-section h2::after {
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        left: 44%;
+        width: 60px;
+        height: 2px;
+        background-color: #3662eb;
+    }
+    .about-section p{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        color: #abb3c6;
+        font-weight: 600;
+    }
+    
+    /* First Section card */
+    
+    .pricing-card {
+        text-align: center;
+        padding: 50px 100px;
+        background: #fff;
+        transition: .6s;
+    }
+    .pricing-card:hover{
+        background-color: #3662eb;
+        color: #fff;
+    }
+    .pricing-card:hover p{
+        color: #fff;
+    }
+    .pricing-card:hover .btn-button{
+        background-color: #fff;
+        color: #3662eb;
+    }
+    .pricing-card h4{
+        margin-bottom: 35px;
+        font-weight: 600;
+    }
+    .pricing-card h1 {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 60px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .pricing-card p {
+        line-height: 35px;
+        margin-top: 30px;
+        color: #959494;
+    }
+    .btn-button{
+        display: inline-block;
+        border-radius: 30px;
+        font-size: 16px;
+        padding: 10px 20px;
+        background-color: #3662eb;
+        color: #fff;
+        overflow: hidden;
+    
+        position: relative;
+        z-index: 1;
+    }
+    .btn-button::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 0;
+        background-color:#3662eb;
+        color: #fff;
+        border-radius: 30px;
+    
+        transition: .3s;
+        z-index: -1;
+    }
+    .btn-button:hover::before{
+        width: 100%;
+    }
+    .btn-button:hover{
+        color: #ffff !important;
+    }
+    
+    /* Slider Section */
+    
+    .banner-section{
+        background:linear-gradient(#3660d4a2,#3660d4a2), url(./img/free-bg.jpg) no-repeat center center;
+       background-size: cover;
+       padding: 100px;
+    }
+    .banner-section .btn-button{
+        background-color: #fff;
+        color: #3662eb;
+        border: 1px solid #fff;
+        padding: 10px 20px 12px;
+        font-weight: 700;
+    }
+    .before-sada{
+        position: relative;
+    }
+    .before-sada::after {
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        left: 44%;
+        width: 60px;
+        height: 2px;
+        background-color: rgb(245, 237, 237) !important;
+    }
+    
+    /* Sing Up Section */
+    .sing-up-section{
+        padding: 90px;
+        background-color: #f8f9fa;
+    }
+    .sing-up{
+        background-color: #3763eb;
+        color: #fff;
+        padding: 40px;
+        border-radius: 5px;
+    }
+    .sing-up-about{
+        width: 350px;
+    }
+    .sing-up-about p {
+        margin: 30px 0 35px;
+    }
+    .sing-up .email {
+        padding: 5px 15px;
+        border-radius: 20px;
+    }
+    .sing-up .button{
+        padding: 5px 15px;
+        border-radius: 20px;
+        border: 1px solid #fff;
+        color: #fff;
+        background-color: #3662eb;
+        margin-left: 50px;
+    }
+    .sing-up-business{
+        background-color: rgb(252, 250, 250);
+        box-shadow: 0 0 10px #eaebeb;
+        padding: 30px 40px;
+    }
+    .sing-up-business h1 {
+        font-size: 28px;
+        margin-bottom: 84px;
+    }
+    .button{
+        display: inline-block;
+        background-color: #3662e7;
+        color: #fff;
+        padding: 8px 15px;
+        border-radius: 30px;
+        transition: .5s;
+    }
+    .button:hover{
+        background-color: #083be0;
+        color: #fff;
+    }
